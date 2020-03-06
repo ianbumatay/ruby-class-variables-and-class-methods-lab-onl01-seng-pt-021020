@@ -10,6 +10,18 @@ class Song
       @@count = []
   end
 
+  def self.@@count
+     @@count
+  end
+
+  def self.@@artist
+    @@artist
+  end
+
+  def self.@@genre
+    @@genre
+  end
+
 
 
 
